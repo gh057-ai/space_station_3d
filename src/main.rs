@@ -28,7 +28,7 @@ fn main() {
     while !rl.window_should_close() && !rl.is_key_pressed(KeyboardKey::KEY_ESCAPE) {
         // Mouse look
         let mouse_delta = rl.get_mouse_delta();
-        yaw += mouse_delta.x as f32 * look_speed;
+        yaw += mouse_delta.x * look_speed;
 
         // Calculate look direction (use raw yaw for continuous rotation)
         let look_dir = Vector3::new(yaw.cos(), 0.0, yaw.sin());
