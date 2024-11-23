@@ -1,0 +1,24 @@
+/target
+
+# Rust build directory
+/target/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+**/*.rs.bk
+*.pdb
+*.exe
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Build directories
+/build/
+/debug/
+/release/

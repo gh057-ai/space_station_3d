@@ -1,0 +1,8 @@
+[package]
+name = "space_station_3d"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+raylib = "5.0.2"
